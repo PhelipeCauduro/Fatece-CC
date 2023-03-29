@@ -9,18 +9,18 @@ Algoritmo "Quadrado do número"
 // Autor(a)    : Phelipe C.
 // Data atual  : 28/03/2023
 Var
-quadrado, numero : real
+   quadrado, numero : real
 
 Inicio
 
-// Solicitar ao usuário as entradas
-escreval("Digite um número: ")
-leia(numero)
+   // Solicitar ao usuário as entradas
+   escreval("Digite um número: ")
+   leia(numero)
 
-// Calcula o quadrado do número
-quadrado <- numero * numero // ou numero ^ 2
+   // Calcula o quadrado do número
+   quadrado <- numero * numero // ou numero ^ 2
 
-// Exibe o resultado
-escreva("O quadrado do número inserido é: ", quadrado)
+   // Exibe o resultado
+   escreva("O quadrado do número inserido é: ", quadrado)
 
 Fimalgoritmo

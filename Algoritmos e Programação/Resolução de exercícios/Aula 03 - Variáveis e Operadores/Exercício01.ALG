@@ -9,21 +9,21 @@ Algoritmo "Área do triângulo"
 // Autor(a)    : Phelipe C.
 // Data atual  : 28/03/2023
 Var
-area, base, altura : real
+   area, base, altura : real
 
 Inicio
 
-// Solicitar ao usuário as entradas
-escreval("Digite o tamanho da base do triângulo: ")
-leia(base)
+   // Solicitar ao usuário as entradas
+   escreval("Digite o tamanho da base do triângulo: ")
+   leia(base)
 
-escreval("Digite a altura do triângulo: ")
-leia(altura)
+   escreval("Digite a altura do triângulo: ")
+   leia(altura)
 
-// Calcula a área do triângulo
-area <- (base * altura) / 2
+   // Calcula a área do triângulo
+   area <- (base * altura) / 2
 
-// Exibe o resultado
-escreva("A área deste triângulo é: ", area)
+   // Exibe o resultado
+   escreva("A área deste triângulo é: ", area)
 
 Fimalgoritmo
