@@ -19,43 +19,47 @@ Inicio
    escreval("Digite cinco valores inteiros: ")
    leia(valorUm, valorDois, valorTres, valorQuatro, valorCinco)
 
-   // Compara os valores entre si para saber qual é o maior
+   // Atribui o valor maior sendo o primeiro
    maiorAtual  <- valorUm
 
-   se (valorUm < valorDois) então
+   // Verifica se cada valor é maior do que o maiorAtual, caso verdadeiro
+   // atribui esse valor a variável
+   se (maiorAtual < valorDois) então
       maiorAtual  <- valorDois
    fimse
-   
-   se (valorDois < valorTres) então
+
+   se (maiorAtual < valorTres) então
       maiorAtual  <- valorTres
    fimse
-   
-   se (valorTres < valorQuatro) então
+
+   se (maiorAtual < valorQuatro) então
       maiorAtual  <- valorQuatro
    fimse
-   
-   se (valorQuatro < valorCinco) então
+
+   se (maiorAtual < valorCinco) então
       maiorAtual <- valorCinco
    fimse
-   
-   
-   // Compara os valores entre si para saber qual é o menor
+
+
+   // Atribui o valor menor sendo o primeiro
    menorAtual  <- valorUm
 
-   se (valorUm > valorDois) então
+   // Verifica se cada valor é menor do que o menorAtual, caso verdadeiro
+   // atribui esse valor a variável
+   se (menorAtual > valorDois) então
       menorAtual  <- valorDois
    fimse
 
-   se (valorDois > valorTres) então
+   se (menorAtual > valorTres) então
       menorAtual  <- valorTres
    fimse
 
-   se (valorTres > valorQuatro) então
+   se (menorAtual > valorQuatro) então
       menorAtual  <- valorQuatro
    fimse
 
-   se (valorQuatro > valorCinco) então
-      menorAtual <- valorCinco
+   se (menorAtual > valorCinco) então
+      menorAtual  <- valorCinco
    fimse
 
 
