@@ -1,0 +1,12 @@
+
+Escreva as instruções de um algoritmo para “Trocar lâmpada”. Para isso, utilize de 5 a 10 instruções.
+	
+Resolução:
+1. Desligar o interruptor da lâmpada 
+2. Esperar alguns minutos para que a lâmpada esfrie 
+3. Pegar a nova lâmpada 
+4. Desrosquear a lâmpada queimada 
+5. Encaixar a nova lâmpada no soquete 
+6. Rosquear a nova lâmpada até que fique firme 
+7. Ligar o interruptor da lâmpada para testar se funciona corretamente
+

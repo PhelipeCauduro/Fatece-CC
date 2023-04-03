@@ -1,0 +1,9 @@
+Escreva as instruções de um algoritmo para o “Cálculo da média simples de três
+valores”. 
+
+Resolução:
+1. Ler o primeiro valor
+2. Ler o segundo valor
+3. Ler o terceiro valor 
+4. Calcular a média dos três valores através da fórmula Média = (Valor1 + Valor2 + Valor3) ÷ 3
+5. Apresentar o resultado do cálculo da média simples

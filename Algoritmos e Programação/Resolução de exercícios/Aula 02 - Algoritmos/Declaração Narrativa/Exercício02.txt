@@ -1,0 +1,9 @@
+Escreva as instruções de um algoritmo para realizar o “Cálculo do IMC de uma
+pessoa”. IMC = Peso ÷ (Altura × Altura)
+
+Resolução: 
+1. Ler o peso da pessoa
+2. Ler a altura da pessoa 
+3. Calcular o IMC através da fórmula IMC = Peso ÷ (Altura × Altura) 
+4. Apresentar o resultado do cálculo do IMC
+	
